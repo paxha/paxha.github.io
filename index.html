@@ -1,7 +1,86 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Lato-Bold";
+            src: url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.eot");
+            src: url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.woff") format("woff"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9d942e0ff1014c476713a855710ce309.svg#Lato") format("svg");
+        }
+
+        @font-face {
+            font-family: "Lato-Thin";
+            src: url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.eot");
+            src: url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.woff") format("woff"), url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/024608515afb89de6889c0c9220041f1.svg#Lato Thin") format("svg");
+        }
+
+        @font-face {
+            font-family: "Lato";
+            src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot");
+            src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff") format("woff"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.svg#Lato") format("svg");
+        }
+
+        .lato-bold {
+            font-family: "Lato-Bold";
+        }
+
+
+        .lato-thin {
+            font-family: "Lato-Thin";
+        }
+
+        .lato {
+            font-family: "Lato";
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<div class="container mx-auto">
+    <div class="flex bg-white h-screen">
+        <div class="w-1/3 flex justify-center items-center bg-gray-100">
+            <img class="rounded-full w-56 h-56" src="images/avatar.jpg" alt="Profile Photo">
+        </div>
+        <div class="w-3/4 flex items-center relative">
+            <div class="mx-12 w-full">
+                <h1 class="leading-none">
+                    <span class="text-5xl block text-gray-700 font-thin lato-thin">Pasha</span>
+                    <span class="text-6xl block text-blue-900 break-normal lato-bold">Hassan Raza</span>
+                </h1>
+                <h2 class="mt-4 text-xl block text-gray-600 lato-thin font-serif font-medium">
+                    Software Engineer
+                </h2>
+                <!-- Span bottom edge -->
+
+                <div class="absolute inset-x-0 bottom-0 m-12">
+                    <hr>
+                    <div class="flex items-start mt-2">
+                        <div class="flex-1 text-left">
+                            <h2 class="py-3 text-xs lato-bold text-gray-700">Location</h2>
+                            <p class="text-xs text-gray-600 lato">Lahore, Pakisan</p>
+                        </div>
+                        <div class="flex-1 text-left">
+                            <h2 class="py-3 text-xs lato-bold text-gray-700">Phone</h2>
+                            <p class="text-xs text-gray-600 lato">+92 320 4148413</p>
+                        </div>
+                        <div class="flex-1 text-left">
+                            <h2 class="py-3 text-xs lato-bold text-gray-700">Web</h2>
+                            <p class="text-xs text-gray-600 lato">paxha.github.io</p>
+                        </div>
+                        <div class="flex-1 text-left">
+                            <h2 class="py-3 text-xs lato-bold text-gray-700">Email</h2>
+                            <p class="text-xs text-gray-600 lato">e.hassanrazapasha@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
