@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>(Pasha) Hassan Raza</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
         @font-face {
@@ -42,39 +42,43 @@
 </head>
 <body class="bg-gray-100">
 <div class="container mx-auto">
-    <div class="flex bg-white h-screen">
-        <div class="w-1/3 flex justify-center items-center bg-gray-100">
+    <div class="flex bg-white md:h-screen sm:h-auto">
+        <div class="hidden lg:w-1/3 lg:flex lg:justify-center lg:items-center lg:bg-gray-100">
             <img class="rounded-full w-56 h-56" src="images/avatar.jpg" alt="Profile Photo">
         </div>
-        <div class="w-3/4 flex items-center relative">
-            <div class="mx-12 w-full">
+        <div class="w-full lg:w-3/4 flex items-center relative">
+            <div class="mx-12 w-full text-center lg:text-left">
+                <div class="lg:hidden flex justify-center">
+                    <img alt="Profile Photo" class="m-4 shadow-lg rounded-full w-56 h-56" src="images/avatar.jpg">
+                </div>
                 <h1 class="leading-none">
                     <span class="text-5xl block text-gray-700 font-thin lato-thin">Pasha</span>
-                    <span class="text-6xl block text-blue-900 break-normal lato-bold">Hassan Raza</span>
+                    <span class="text-6xl block text-blue-800 break-normal lato-bold">Hassan Raza</span>
                 </h1>
                 <h2 class="mt-4 text-xl block text-gray-600 lato-thin font-serif font-medium">
                     Software Engineer
                 </h2>
-                <!-- Span bottom edge -->
 
-                <div class="absolute inset-x-0 bottom-0 m-12">
+                <div class="md:absolute md:inset-x-0 md:bottom-0 m-12">
                     <hr>
-                    <div class="flex items-start mt-2">
-                        <div class="flex-1 text-left">
+                    <div class="flex flex-wrap mt-2">
+                        <div class="w-full md:w-1/4 text-left">
                             <h2 class="py-3 text-xs lato-bold text-gray-700">Location</h2>
-                            <p class="text-xs text-gray-600 lato">Lahore, Pakisan</p>
+                            <p class="text-xs text-gray-600 lato">Lahore, Pakistan</p>
                         </div>
-                        <div class="flex-1 text-left">
+                        <div class="w-full md:w-1/4 text-left">
                             <h2 class="py-3 text-xs lato-bold text-gray-700">Phone</h2>
-                            <p class="text-xs text-gray-600 lato">+92 320 4148413</p>
+                            <p class="text-xs text-gray-600 lato"><a href="tel:+92-320-4148413">+92-320-4148413</a></p>
                         </div>
-                        <div class="flex-1 text-left">
+                        <div class="w-full md:w-1/4 text-left">
                             <h2 class="py-3 text-xs lato-bold text-gray-700">Web</h2>
-                            <p class="text-xs text-gray-600 lato">paxha.github.io</p>
+                            <p class="text-xs text-gray-600 lato"><a href="https://paxha.github.io">paxha.github.io</a>
+                            </p>
                         </div>
-                        <div class="flex-1 text-left">
+                        <div class="w-full md:w-1/4 text-left">
                             <h2 class="py-3 text-xs lato-bold text-gray-700">Email</h2>
-                            <p class="text-xs text-gray-600 lato">e.hassanrazapasha@gmail.com</p>
+                            <p class="text-xs text-gray-600 lato"><a
+                                    href="mailto:e.hassanrazapasha@gmail.com">e.hassanrazapasha@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
