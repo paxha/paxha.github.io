@@ -42,17 +42,21 @@
 </head>
 
 <body>
-<main class="container mx-auto">
+<main class="container mx-auto" role="main">
     <!--
       Hero / Profile Section
       - Displays profile image and main personal info
     -->
-    <section>
+    <section aria-label="Profile and Hero Section">
         <div class="lg:flex  lg:h-screen h-auto">
             <!-- Profile Image -->
             <div class="w-full lg:w-1/3 p-12 flex justify-center items-center  lg:bg-neutral-50">
-                <img alt="Hassan Raza Pasha - Laravel Developer in Pakistan" class="rounded-full w-48 lg:w-56"
-                     src="images/avatar.png">
+                <img alt="Hassan Raza Pasha - Senior Laravel Developer in Lahore, Pakistan"
+                     class="rounded-full w-48 lg:w-56"
+                     src="images/avatar.png"
+                     loading="lazy"
+                     role="img"
+                     aria-label="Profile picture of Hassan Raza Pasha, Senior Laravel Developer in Lahore, Pakistan">
             </div>
             <!-- Name, Title, and Contact Info -->
             <div class="w-full lg:w-2/3 p-12 flex flex-col justify-between ">
@@ -84,7 +88,7 @@
                     <div>
                         <h2 class="py-3 font-bold">Email</h2>
                         <a href="mailto:e.hassanrazapasha@gmail.com"
-                           class="font-thin hover:underline hover:text-primary">xpaxha@gmail.com</a>
+                           class="font-thin hover:underline hover:text-primary">e.hassanrazapasha@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +99,7 @@
       Intro Section
       - Brief professional summary and introduction
     -->
-    <section>
+    <section aria-label="Professional Introduction">
         <div class="lg:flex">
             <!-- Section Title -->
             <div class="w-full lg:w-1/3 p-12 bg-neutral-100">
@@ -121,7 +125,7 @@
       Skills Section
       - Lists technical skills with proficiency bars
     -->
-    <section>
+    <section aria-label="Technical Skills">
         <div class="lg:flex">
             <!-- Section Title -->
             <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50">
@@ -219,7 +223,7 @@
       Experience Section
       - Timeline of professional experience
     -->
-    <section>
+    <section aria-label="Professional Experience">
         <div class="lg:flex">
             <!-- Section Title -->
             <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-100">
@@ -343,7 +347,7 @@
       Education Section
       - Academic background and degree details
     -->
-    <section>
+    <section aria-label="Education Background">
         <div class="lg:flex">
             <!-- Section Title -->
             <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50">
