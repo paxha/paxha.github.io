@@ -41,7 +41,7 @@
     </script>
 </head>
 
-<body>
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100  dark:selection:bg-gray-700">
 <main class="container mx-auto" role="main">
     <!--
       Hero / Profile Section
@@ -50,7 +50,7 @@
     <section aria-label="Profile and Hero Section">
         <div class="lg:flex  lg:h-screen h-auto">
             <!-- Profile Image -->
-            <div class="w-full lg:w-1/3 p-12 flex justify-center items-center  lg:bg-neutral-50">
+            <div class="w-full lg:w-1/3 p-12 flex justify-center items-center  lg:bg-neutral-50 dark:lg:bg-gray-850">
                 <img alt="Hassan Raza Pasha - Senior Laravel Developer in Lahore, Pakistan"
                      class="rounded-full w-48 lg:w-56"
                      src="images/avatar.png"
@@ -59,36 +59,36 @@
                      aria-label="Profile picture of Hassan Raza Pasha, Senior Laravel Developer in Lahore, Pakistan">
             </div>
             <!-- Name, Title, and Contact Info -->
-            <div class="w-full lg:w-2/3 p-12 flex flex-col justify-between ">
+            <div class="w-full lg:w-2/3 p-12 flex flex-col justify-between">
                 <div><!-- Empty div to maintain the layout space --></div>
                 <div class="text-center lg:text-left">
                     <h1 class="leading-none">
                         <span class="text-4xl md:text-5xl lg:text-6xl block font-thin">Pasha</span>
-                        <span class="text-3xl md:text-5xl lg:text-6xl break-normal uppercase font-bold text-primary">Hassan Raza</span>
+                        <span class="text-3xl md:text-5xl lg:text-6xl break-normal uppercase font-bold text-primary dark:text-blue-400">Hassan Raza</span>
                     </h1>
                     <p class="mt-4 text-xl font-thin">
                         Experienced Laravel Developer & Team Lead
                     </p>
                 </div>
                 <!-- Contact Details Grid -->
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 border-t border-t-gray-200 text-center lg:text-left mt-12">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 border-t border-t-gray-200 dark:border-t-gray-700 text-center lg:text-left mt-12">
                     <div>
                         <h2 class="py-3 font-bold">Location</h2>
                         <p class="font-thin">Lahore, Pakistan</p>
                     </div>
                     <div>
                         <h2 class="py-3 font-bold">Phone</h2>
-                        <a href="tel:+92-320-4148413" class="font-thin hover:underline hover:text-primary">+92-320-4148413</a>
+                        <a href="tel:+92-320-4148413" class="font-thin hover:underline hover:text-primary dark:hover:text-blue-400">+92-320-4148413</a>
                     </div>
                     <div>
                         <h2 class="py-3 font-bold">LinkedIn</h2>
                         <a href="https://www.linkedin.com/in/hassanrazapasha"
-                           class="font-thin hover:underline hover:text-primary">in/hassanrazapasha</a>
+                           class="font-thin hover:underline hover:text-primary dark:hover:text-blue-400">in/hassanrazapasha</a>
                     </div>
                     <div>
                         <h2 class="py-3 font-bold">Email</h2>
                         <a href="mailto:e.hassanrazapasha@gmail.com"
-                           class="font-thin hover:underline hover:text-primary">e.hassanrazapasha@gmail.com</a>
+                           class="font-thin hover:underline hover:text-primary dark:hover:text-blue-400">e.hassanrazapasha@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -102,14 +102,14 @@
     <section aria-label="Professional Introduction">
         <div class="lg:flex">
             <!-- Section Title -->
-            <div class="w-full lg:w-1/3 p-12 bg-neutral-100">
+            <div class="w-full lg:w-1/3 p-12 bg-neutral-100 dark:bg-gray-800">
                 <div class="text-center lg:text-right">
                     <h2 class="font-bold uppercase">Intro</h2>
                     <p class="font-thin">What I am all about.</p>
                 </div>
             </div>
             <!-- Intro Text -->
-            <div class="w-full lg:w-2/3 p-12  lg:bg-neutral-50">
+            <div class="w-full lg:w-2/3 p-12  lg:bg-neutral-50 dark:lg:bg-gray-850">
                 <p class="pr-20">
                     Experienced Laravel Developer and Team Lead with over 8 years in backend development and 3+
                     years of freelancing. Skilled in Laravel, PHP, RESTful APIs, and database optimization, with a
@@ -128,88 +128,88 @@
     <section aria-label="Technical Skills">
         <div class="lg:flex">
             <!-- Section Title -->
-            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50">
+            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50 dark:bg-gray-850">
                 <div class="text-center lg:text-right">
                     <h2 class="font-bold uppercase">Skills</h2>
                     <p class="font-thin">My Tech Arsenal.</p>
                 </div>
             </div>
             <!-- Skills Grid -->
-            <div class="w-full lg:w-2/3 p-12 ">
+            <div class="w-full lg:w-2/3 p-12">
                 <div class="grid grid-cols-2 gap-12">
                     <!--
                       Individual Skill Block
                       - Skill name, proficiency label, and progress bar
                     -->
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">Laravel</span>
                             <span class="text-xs">EXPERT</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-green-600 h-2 rounded-full" style="width: 95%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">PHP</span>
                             <span class="text-xs">EXPERT</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-green-600 h-2 rounded-full" style="width: 85%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">REST API</span>
                             <span class="text-xs">EXPERT</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-green-600 h-2 rounded-full" style="width: 90%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">MySQL</span>
                             <span class="text-xs">EXPERT</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-green-600 h-2 rounded-full" style="width: 90%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">Git</span>
                             <span class="text-xs">EXPERT</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-green-600 h-2 rounded-full" style="width: 92%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">CI/CD</span>
                             <span class="text-xs">MODERATE</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-yellow-500 h-2 rounded-full" style="width: 75%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">Vue.js</span>
                             <span class="text-xs">MODERATE</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-yellow-500 h-2 rounded-full" style="width: 65%;"></div>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div class="flex justify-between items-center mb-1">
                             <span class="font-bold">React</span>
                             <span class="text-xs">INTERMEDIATE</span>
                         </div>
-                        <div class="w-full bg-neutral-200 rounded-full h-2">
+                        <div class="w-full bg-neutral-200 dark:bg-gray-700 rounded-full h-2">
                             <div class="bg-blue-500 h-2 rounded-full" style="width: 55%;"></div>
                         </div>
                     </div>
@@ -226,26 +226,26 @@
     <section aria-label="Professional Experience">
         <div class="lg:flex">
             <!-- Section Title -->
-            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-100">
+            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-100 dark:bg-gray-800">
                 <div class="text-center lg:text-right">
                     <h2 class="font-bold uppercase">Experience</h2>
                     <p class="font-thin">Code. Lead. Repeat.</p>
                 </div>
             </div>
             <!-- Experience Timeline -->
-            <div class="w-full lg:w-2/3 pl-12 pt-12 pr-12  lg:bg-neutral-50">
-                <div class="border-l-2 border-l-gray-200 pb-12">
+            <div class="w-full lg:w-2/3 pl-12 pt-12 pr-12  lg:bg-neutral-50 dark:lg:bg-gray-850">
+                <div class="border-l-2 border-l-gray-200 dark:border-l-gray-700 pb-12">
                     <!--
                       Individual Experience Block
                       - Company, role, duration, and responsibilities
                     -->
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 lg:border-neutral-50 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 lg:border-neutral-50 dark:lg:border-gray-850 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">October 2023 - January 2025</span>
                             <h3 class="font-bold">
                                 <a href="https://manafa.co"
-                                   class="no-underline hover:underline hover:text-primary">Manafa Technologies</a>
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">Manafa Technologies</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Laravel Developer</h4>
                             <ol class="pb-10 list-disc ml-6">
@@ -257,12 +257,12 @@
                         </div>
                     </div>
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 lg:border-neutral-50 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 lg:border-neutral-50 dark:lg:border-gray-850 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">April 2022 - August 2023</span>
                             <h3 class="font-bold">
                                 <a href="https://yumyapps.com"
-                                   class="no-underline hover:underline hover:text-primary">YumyApps (Pvt) Ltd</a>
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">YumyApps (Pvt) Ltd</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Team Lead / Laravel Developer</h4>
                             <ol class="pb-10 list-disc ml-6">
@@ -279,12 +279,12 @@
                         </div>
                     </div>
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 lg:border-neutral-50 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 lg:border-neutral-50 dark:lg:border-gray-850 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">June 2020 - April 2022</span>
                             <h3 class="font-bold">
                                 <a href="https://my-glu.com"
-                                   class="no-underline hover:underline hover:text-primary">MyGlu (Pvt) Ltd</a>
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">MyGlu (Pvt) Ltd</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Team Lead / Laravel Developer</h4>
                             <ol class="pb-10 list-disc ml-6">
@@ -301,12 +301,12 @@
                         </div>
                     </div>
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 lg:border-neutral-50 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 lg:border-neutral-50 dark:lg:border-gray-850 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">August 2018 - June 2020</span>
                             <h3 class="font-bold">
                                 <a href="https://www.aodour.pk"
-                                   class="no-underline hover:underline hover:text-primary">Aodour (Pvt) Ltd</a>
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">Aodour (Pvt) Ltd</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Team Lead / Laravel Developer</h4>
                             <ol class="pb-10 list-disc ml-6">
@@ -319,12 +319,12 @@
                         </div>
                     </div>
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 lg:border-neutral-50 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 lg:border-neutral-50 dark:lg:border-gray-850 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">January 2016 - July 2018</span>
                             <h3 class="font-bold">
                                 <a href="https://ctproducts.net"
-                                   class="no-underline hover:underline hover:text-primary">CT Products (Pvt)
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">CT Products (Pvt)
                                     Ltd</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Laravel Developer</h4>
@@ -350,7 +350,7 @@
     <section aria-label="Education Background">
         <div class="lg:flex">
             <!-- Section Title -->
-            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50">
+            <div class="w-full lg:w-1/3 p-12 lg:justify-end bg-neutral-50 dark:bg-gray-850">
                 <div class="text-center lg:text-right">
                     <h2 class="font-bold uppercase">Education</h2>
                     <p class="font-thin">Academic Foundation.</p>
@@ -358,18 +358,18 @@
             </div>
             <!-- Education Timeline -->
             <div class="w-full lg:w-2/3 pl-12 pb-12 pr-12  ">
-                <div class="border-l-2 border-l-gray-200 pt-12">
+                <div class="border-l-2 border-l-gray-200 dark:border-l-gray-700 pt-12">
                     <!--
                       Individual Education Block
                       - University, degree, duration, and description
                     -->
                     <div class="flex relative">
-                        <div class="w-5 h-5 rounded-full bg-gray-200 dot border-4 border-white"></div>
+                        <div class="w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 dot border-4 dark:lg:border-gray-900 border-white dark:border-gray-900"></div>
                         <div class="ml-6">
                             <span class="block leading-tight mb-1 font-thin text-sm">July 2015 - March 2019</span>
                             <h3 class="font-bold">
                                 <a href="https://leads.edu.pk"
-                                   class="no-underline hover:underline hover:text-primary">Lahore LEADS
+                                   class="no-underline hover:underline hover:text-primary dark:hover:text-blue-400">Lahore LEADS
                                     University</a>
                             </h3>
                             <h4 class="mb-2 font-thin">Bachelor of Science in Software Engineering</h4>
@@ -382,7 +382,7 @@
                         </div>
                     </div>
                     <!-- Timeline End Marker -->
-                    <div class="w-4 border-t-2 border-t-gray-200 absolute" style="transform: translate(-56.5%,0)"></div>
+                    <div class="w-4 border-t-2 border-t-gray-200 dark:border-t-gray-700 absolute" style="transform: translate(-56.5%,0)"></div>
                 </div>
             </div>
         </div>

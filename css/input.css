@@ -3,6 +3,7 @@
 
 @theme {
     --color-primary: #1e40af; /* Brighter navy blue */
+    --color-gray-850: #1c2230; /* between gray-800 and gray-900 */
 }
 
 body {
