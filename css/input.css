@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1e40af; /* Brighter navy blue */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #6b7280; /* Tailwind gray-500 */
+}
+
+.dot {
+    position: absolute;
+    left: -11px;
+}

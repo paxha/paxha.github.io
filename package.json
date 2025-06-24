@@ -1,0 +1,32 @@
+{
+  "name": "paxha.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio and blog site for Hassan Raza Pasha, built with Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxha/paxha.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "blog",
+    "tailwindcss",
+    "static-site",
+    "personal",
+    "hassan-raza-pasha"
+  ],
+  "author": "Hassan Raza Pasha <e.hassanrazapasha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paxha/paxha.github.io/issues"
+  },
+  "homepage": "https://github.com/paxha/paxha.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
