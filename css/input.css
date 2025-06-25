@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #1e40af; /* Brighter navy blue */
-    --color-gray-850: #1c2230; /* between gray-800 and gray-900 */
+  --color-primary: #1e40af; /* Brighter navy blue */
+  --color-gray-850: #1c2230; /* between gray-800 and gray-900 */
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    color: #6b7280; /* Tailwind gray-500 */
+  font-family: "Lato", sans-serif;
+  color: #6b7280; /* Tailwind gray-500 */
 }
 
 .dot {
-    position: absolute;
-    left: -11px;
+  position: absolute;
+  left: -11px;
 }
